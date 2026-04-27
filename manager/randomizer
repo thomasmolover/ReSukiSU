@@ -7,8 +7,8 @@
 # word4=$(tr -dc 'a-z' </dev/urandom | head -c6)
 word1="com"
 word2="rsksu"
-word3="io"
-word4=$(tr -dc 'a-z' </dev/urandom | head -c6)
+word3="rskSU"
+word4="io"
 
 
 # Export variables for use in find -exec
