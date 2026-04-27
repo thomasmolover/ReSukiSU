@@ -1,9 +1,13 @@
 #! /usr/bin/env bash
 
 # Generate 3 random lowercase words (6 letters each)
-word1=$(tr -dc 'a-z' </dev/urandom | head -c6)
-word2=$(tr -dc 'a-z' </dev/urandom | head -c6)
-word3=$(tr -dc 'a-z' </dev/urandom | head -c6)
+# word1=$(tr -dc 'a-z' </dev/urandom | head -c6)
+# word2=$(tr -dc 'a-z' </dev/urandom | head -c6)
+# word3=$(tr -dc 'a-z' </dev/urandom | head -c6)
+# word4=$(tr -dc 'a-z' </dev/urandom | head -c6)
+word1="com"
+word2="rsksu"
+word3="io"
 word4=$(tr -dc 'a-z' </dev/urandom | head -c6)
 
 
